@@ -37,9 +37,9 @@ export default {
 }
 
 .v-easy-dialog--content-container {
-  background: hsl(222deg 9% 19%);
+  background: #2c2f35;
   border-radius: 20px;
-  box-shadow: 0 0 0 1px hsl(222deg 9% 27%);
+  box-shadow: 0 0 0 1px #3f424b;
   padding: 10px 15px 10px 15px;
   color: #fff;
   max-width: 320px!important;
@@ -60,6 +60,8 @@ export default {
   background-color: #202226;
   color: #b2b3b5;
   min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 a {

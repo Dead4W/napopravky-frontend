@@ -45,7 +45,7 @@ export default {
 	border-radius: 6px;
 	display: inline-block;
 	margin: 0 2px;
-	color: hsl(210deg 60% 55%);
+	color: #478cd1;
 	font-size: 12pt;
 	cursor: pointer;
 	font-family: 'Brygada 1918', serif;
@@ -68,8 +68,8 @@ export default {
 
 .QuoteItem {
     border-radius: 20px;
-    background: hsl(222deg 9% 19%);
-    box-shadow: 0 0 0 1px hsla(222,9.4%,26.8%,1);
+    background: #2c2f35;
+    box-shadow: 0 0 0 1px #3e424b;
     padding: 10px 15px 10px 15px;
     text-align: left;
     margin: 30px 0;
@@ -77,6 +77,7 @@ export default {
 
 .text {
     overflow-wrap: anywhere;
+    white-space: break-spaces;
 }
 
 .meta {
@@ -96,7 +97,7 @@ export default {
 }
 
 .author {
-	color: hsl(210deg 60% 55%);
+	color: #478cd1;
     width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -104,7 +105,7 @@ export default {
 
 .author:hover {
 	text-decoration: underline;
-	color: hsl(210deg 84% 62%);
+	color: #4d9eef;
 	cursor: pointer;
 }
 

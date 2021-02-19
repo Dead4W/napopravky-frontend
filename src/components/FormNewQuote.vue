@@ -81,7 +81,7 @@ export default {
 
 textarea, input {
 	background: #2c2f35;
-	color: hsl(0deg 0% 99%);
+	color: #fcfcfc;
 	border-radius: 6px;
     padding: 9px 5px;
     border: 1px solid #444954;
