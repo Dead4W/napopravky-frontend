@@ -7,16 +7,14 @@
 				:text="post.text"
 				:author="post.author"
 				:timeAgo="post.timeAgo"
-				:tags="post.tags"
-			/>
+				:tags="post.tags"/>
 		</div>
 		<div class="PageList">
 			<PageItem
 				v-for="index in pages_count"
 				:key="index"
 				:page="index"
-				:current_page="current_page"
-			/>
+				:current_page="current_page"/>
 		</div>
 	</div>
 </template>

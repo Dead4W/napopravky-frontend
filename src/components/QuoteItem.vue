@@ -4,8 +4,7 @@
 			<div class="userAvatar no-select">
 				<IdenticonAvatar
 					:size="48"
-					:address="author"
-				/>
+					:address="author"/>
 			</div>
 			<div class="userInfo">
 				<div class="author">{{ author }}</div>

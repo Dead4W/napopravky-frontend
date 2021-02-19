@@ -5,9 +5,7 @@
 		</button>
 		<v-easy-dialog v-model="visible">
 			<div class="flex flex-col">
-
 				<FormNewQuote/>
-
 			</div>
 		</v-easy-dialog>
 	</div>

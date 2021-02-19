@@ -3,8 +3,7 @@
 		<div 
 			class="TagItemContainer"
 			v-for="tag in tags"
-			:key="'tag_' + tag.id"
-		>
+			:key="'tag_' + tag.id">
 			<span class="TagItem" :class="{'active': tag.isSelected}" @click="toggle(tag)">
 				#{{ tag.title }}
 			</span>
@@ -12,8 +11,7 @@
 		<input type="hidden" name="tags[]"
 			v-for="selected in getSelected()"
 			:key="'tag_selected_' + selected"
-			:value="selected"
-		>
+			:value="selected">
 	</div>
 </template>
 

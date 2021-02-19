@@ -4,16 +4,14 @@
 		<div class="block center no-select">
 			<IdenticonAvatar
 				:size="96"
-				:address="author"
-			/>
+				:address="author"/>
 		</div>
 
 		<div class="block">
 			<input autocomplete="off" type="text" placeholder="Автор цитаты..." name="author" 
 				:value="author"
 				@input="author = $event.target.value"
-				class="no-select"
-			>
+				class="no-select">
 		</div>
 
 		<div class="block">
