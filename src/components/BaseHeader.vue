@@ -1,31 +1,30 @@
 <template>
-  <div class="header">
-	<v-container fill-height fluid>
-		<v-row align="center"
-		justify="center">
-			<v-col class="col-author">
-				<a href="https://github.com/Dead4W" target="_blank">@Dead4W</a>
-			</v-col>
-			<v-col align="center" class="col-title">
-				<span class="headerTitle">Цитатник НаПоправку</span>
-			</v-col>
-			<v-col align="right" class="col-add-action">
-				<AddQuoteButton/>
-			</v-col>
-		</v-row>
-	</v-container>
-  </div>
-
+	<div class="header">
+		<v-container fill-height fluid>
+			<v-row align="center"
+			justify="center">
+				<v-col class="col-author">
+					<a href="https://github.com/Dead4W" target="_blank">@Dead4W</a>
+				</v-col>
+				<v-col align="center" class="col-title">
+					<span class="headerTitle">Цитатник НаПоправку</span>
+				</v-col>
+				<v-col align="right" class="col-add-action">
+					<AddQuoteButton/>
+				</v-col>
+			</v-row>
+		</v-container>
+	</div>
 </template>
 
 <script>
 import AddQuoteButton from './AddQuoteButton.vue'
 
 export default {
-  name: 'BaseHeader',
-  components: {
-    AddQuoteButton,
-  }
+	name: 'BaseHeader',
+		components: {
+	AddQuoteButton,
+	}
 }
 </script>
 
@@ -41,7 +40,7 @@ export default {
 }
 
 .headerTitle {
-    font-size: 14pt;
+	font-size: 14pt;
 }
 
 .col-author {

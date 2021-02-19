@@ -9,7 +9,7 @@
 				#{{ tag.title }}
 			</span>
 		</div>
-		<input type="hidden" name="tags[]"  
+		<input type="hidden" name="tags[]"
 			v-for="selected in getSelected()"
 			:key="'tag_selected_' + selected"
 			:value="selected"

@@ -69,7 +69,7 @@ export default {
 				this.posts = posts;
 			});
 		},
-		updatePostsInterval: function(){           
+		updatePostsInterval: function(){
 			this.intervalUpdatePosts = setInterval(this.updatePosts, 60000);
 		}
 	},
@@ -102,12 +102,12 @@ export default {
 }
 
 .PageList {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    left: 0;
-    background: #2b2e34;
-    box-shadow: #0000004d 0 -1px 10px 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	left: 0;
+	background: #2b2e34;
+	box-shadow: #0000004d 0 -1px 10px 0px;
 }
 
 </style>

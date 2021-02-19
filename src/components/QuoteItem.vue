@@ -67,23 +67,23 @@ export default {
 }
 
 .QuoteItem {
-    border-radius: 20px;
-    background: #2c2f35;
-    box-shadow: 0 0 0 1px #3e424b;
-    padding: 10px 15px 10px 15px;
-    text-align: left;
-    margin: 30px 0;
+	border-radius: 20px;
+	background: #2c2f35;
+	box-shadow: 0 0 0 1px #3e424b;
+	padding: 10px 15px 10px 15px;
+	text-align: left;
+	margin: 30px 0;
 }
 
 .text {
-    overflow-wrap: anywhere;
-    white-space: break-spaces;
+	overflow-wrap: anywhere;
+	white-space: break-spaces;
 }
 
 .meta {
 	margin: 15px 0px;
-    display: block;
-    overflow: hidden;
+	display: block;
+	overflow: hidden;
 }
 
 .timeAgo {
@@ -98,9 +98,9 @@ export default {
 
 .author {
 	color: #478cd1;
-    width: 100%;
-    text-overflow: ellipsis;
-    overflow: hidden;
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .author:hover {

@@ -83,23 +83,23 @@ textarea, input {
 	background: #2c2f35;
 	color: #fcfcfc;
 	border-radius: 6px;
-    padding: 9px 5px;
-    border: 1px solid #444954;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 20vh;
-    font-family: sans-serif, Arial;
-    margin: 10px 0;
+	padding: 9px 5px;
+	border: 1px solid #444954;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 20vh;
+	font-family: sans-serif, Arial;
+	margin: 10px 0;
 }
 
 textarea {
-    min-height: 60px;
+	min-height: 60px;
 }
 
 textarea:focus, input:focus{
-    outline: none;
-    border: 1px solid #aebcdb;
+	outline: none;
+	border: 1px solid #aebcdb;
 }
 
 .modal-panel-action {
